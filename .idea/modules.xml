@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/carrasconlib.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/carrasconlib.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/carrasconlib.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/carrasconlib.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/carrasconlib.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/carrasconlib.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/carrasconlib.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/carrasconlib.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/carrasconlib.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/carrasconlib.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/carrasconlib.forge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/carrasconlib.forge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/carrasconlib.forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/carrasconlib.forge.test.iml" />
+    </modules>
+  </component>
+</project>

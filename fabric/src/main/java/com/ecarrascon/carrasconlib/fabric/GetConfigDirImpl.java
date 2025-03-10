@@ -1,4 +1,4 @@
-package com.ecarrascon.carrasconlib.fabric.config;
+package com.ecarrascon.carrasconlib.fabric;
 
 import net.fabricmc.loader.api.FabricLoader;
 

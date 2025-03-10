@@ -1,4 +1,4 @@
-package com.ecarrascon.carrasconlib.forge.config;
+package com.ecarrascon.carrasconlib.forge;
 
 import net.minecraftforge.fml.loading.FMLPaths;
 

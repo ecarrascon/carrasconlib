@@ -1,4 +1,4 @@
-package com.ecarrascon.carrasconlib.config;
+package com.ecarrascon.carrasconlib;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
 

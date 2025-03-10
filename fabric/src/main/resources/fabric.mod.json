@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "carrasconlib",
+  "version": "${version}",
+  "name": "Carrascon Lib",
+  "description": "A library for ECarrascon Mods",
+  "authors": [
+    "ECarrascon"
+  ],
+  "contact": {
+    "homepage": "https://discord.gg/dYmyKcrkgN",
+    "sources": "https://github.com/ecarrascon/CarrasconLib"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ecarrascon.carrasconlib.fabric.CarrasconLibFabric"
+    ],
+    "client": [
+      "com.ecarrascon.carrasconlib.fabric.client.CarrasconLibFabricClient"
+    ]
+  },
+  "mixins": [
+    "carrasconlib.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "architectury": ">=13.0.8",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

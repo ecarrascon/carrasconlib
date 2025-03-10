@@ -1,17 +1,17 @@
 modLoader = "javafml"
 loaderVersion = "[47,)"
-#issueTrackerURL = ""
-license = "Insert License Here"
+issueTrackerURL = "https://github.com/ecarrascon/carrasconlib/issues"
+license = "MIT"
 
 [[mods]]
 modId = "carrasconlib"
 version = "${version}"
 displayName = "Carrascon Lib"
-authors = "Me!"
+authors = "ECarrascon"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+A library for ECarrascon Mods
 '''
-#logoFile = ""
+logoFile = "icon.png"
 
 [[dependencies.carrasconlib]]
 modId = "forge"

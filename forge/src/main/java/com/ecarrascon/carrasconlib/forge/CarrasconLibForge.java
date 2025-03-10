@@ -7,8 +7,8 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import com.ecarrascon.carrasconlib.CarrasconLib;
 
 @Mod(CarrasconLib.MOD_ID)
-public final class ExampleModForge {
-    public ExampleModForge() {
+public final class CarrasconLibForge {
+    public CarrasconLibForge() {
         // Submit our event bus to let Architectury API register our content on the right time.
         EventBuses.registerModEventBus(CarrasconLib.MOD_ID, FMLJavaModLoadingContext.get().getModEventBus());
 

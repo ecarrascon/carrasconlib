@@ -19,13 +19,12 @@ public class LibConfig<T> {
     private final Gson gson;
 
     /**
-     * @param configDirectory The directory where the config file is stored.
      * @param fileName        The name of the config file (e.g. "mymod-config.json").
      * @param configClass     The class of your config data.
      * @param logger          A logger instance for error reporting.
      */
-    public LibConfig(File configDirectory, String fileName, Class<T> configClass, Logger logger) {
-        this.configFile = new File(configDirectory, fileName);
+    public LibConfig(String fileName, Class<T> configClass, Logger logger) {
+        this.configFile = new File(GetConfigDir.getConfigDirectory().toFile(), fileName);
         this.configClass = configClass;
         this.logger = logger;
         this.gson = new GsonBuilder().setPrettyPrinting().create();
